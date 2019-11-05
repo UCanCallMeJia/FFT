@@ -20,3 +20,6 @@
 经过快速傅里叶变换后，在得到的频谱上，出现峰值的位置，代表了原信号中包含的各个正弦波的频率。  
 
 ![after FFT](https://github.com/UCanCallMeJia/FFT/blob/master/FFT.png)
+
+
+**上图中，0.5， 1， 2， 处出现的波峰，即代表原信号在频域上主要由0.5Hz， 1Hz， 2Hz三种信号组成**
