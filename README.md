@@ -14,3 +14,9 @@
 采样时间可以计算：10s 。    
 采样信号图像为：
 ![Original Signal](https://github.com/UCanCallMeJia/FFT/blob/master/SinSignal.png)  
+
+
+>**FFT**之后得到的依然是1000个点，每个点对应着在那个频率上的分量，是一个复数。  
+经过快速傅里叶变换后，在得到的频谱上，出现峰值的位置，代表了原信号中包含的各个正弦波的频率。  
+
+![after FFT](https://github.com/UCanCallMeJia/FFT/blob/master/FFT.png)
